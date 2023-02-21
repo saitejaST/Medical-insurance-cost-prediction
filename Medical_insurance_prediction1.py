@@ -9,7 +9,7 @@ import numpy as np
 import streamlit as st
 import pickle
 
-loaded_model=pickle.load(open(r"C:\Users\saite\Trained_model_Medical","rb"))
+loaded_model=pickle.load(open(r"Trained_model_Medical","rb"))
 
 def medical_insurance(input_data):
     data_np_array=np.asarray(input_data)
